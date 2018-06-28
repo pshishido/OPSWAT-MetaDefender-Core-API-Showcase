@@ -8,7 +8,7 @@ class API:
 
     def __init__(self):
         # an API Key is required for using MD Cloud API's (not required for Core)
-        self.headers = {"apikey" : "0ee703e5c549b2d81d68643378092735"}
+        self.headers = {"apikey" : "<your_api_key>"}
 
     # Fetch Scan Result by File Hash via MetaDefender Core
     def hashScanResult(self, file_hash):
